@@ -4,3 +4,5 @@ services:
 rvm:
   - 1.9.3
   - 2.0.0
+before_deploy:
+- gem install mime-types -v 2.6.2
