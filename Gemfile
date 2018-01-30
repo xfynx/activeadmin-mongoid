@@ -45,9 +45,3 @@ group :test, :development do
   gem 'rspec-mocks', github: 'rspec/rspec-mocks'
   gem 'rspec-rails', github: 'rspec/rspec-rails'
 end
-
-# strict requirements for ruby 1.9.3 env. (mainly for travis-ci deployment)
-gem 'inherited_resources', '~> 1.6'
-gem 'nokogiri', '~> 1.6'
-gem 'mime-types', '~> 2.99'
-gem 'public_suffix', '~> 1.4'
