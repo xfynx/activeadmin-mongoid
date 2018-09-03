@@ -10,7 +10,7 @@ gem 'ransack-mongoid', github: 'activerecord-hackery/ransack-mongoid'
 
 # Test app stuff
 
-gem 'rails', '~> 5.1'
+gem 'rails', '<= 5.1.9'
 gem 'kaminari', '~> 1.0'
 gem 'kaminari-mongoid'
 
